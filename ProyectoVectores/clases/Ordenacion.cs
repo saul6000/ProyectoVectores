@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProyectoVectores.clases
+{
+  public  class Ordenacion
+    {
+        public static int [] odernaSeleccion(int [] vector , int tamaño)
+        {
+            int aux = 0;
+            
+            for (int i=0; i<tamaño;i++)
+                for(int j=i+1; j<tamaño; j++)
+                    if(vector [i]>vector[j])
+                    {
+                        aux = vector[i];
+                        vector[i] = vector[j];
+                        vector[j] = aux;
+
+                    }
+            return vector;
+        }
+    }
+}
