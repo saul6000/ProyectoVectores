@@ -66,11 +66,11 @@ namespace ProyectoVectores.clases
             else if (num < 2000) aux = complementos[0] + "  " +  getLetras(num % 1000);
             else if (num < 1000000)
             {
-                aux = getLetras(Math.Truncate(num / 1000)) +"  " + complementos[0];
-                if ((num % 1000) > 0) aux = aux + "  " + getLetras(num % 1000);
+                aux = getLetras(Math.Truncate(num / 1000)) +" " + complementos[0];
+                if ((num % 1000) > 0) aux = aux + " " + getLetras(num % 1000);
             }
             else if (num == 1000000) aux = complementos [1];
-            else if (num < 2000000) aux = complementos[1] + getLetras(num % 1000000);
+            else if (num < 2000000) aux = complementos[1] +" " +  getLetras(num % 1000000);
             else if (num == 2000000) aux = complementos[3];
             else if (num == 3000000) aux = complementos[4];
             else if (num == 4000000) aux = complementos[5];
