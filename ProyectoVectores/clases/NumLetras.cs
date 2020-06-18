@@ -15,7 +15,7 @@ namespace ProyectoVectores.clases
             "ochenta","noventa"};
         public static string[] centenas = new string[]{"cien","ciento","cientos" , "dociento ", "tresciento","cuatrociento","quinientos","seiscientos","setecientos",
             "ochocientos","novecientos"};
-        public static string[] complementos = new string[] {"mil","Un millon" , "millones","dos millones" , "tres millones " ,"cuatro millones","cinco millones " , "seis millones","siete millones" ,"ocho millones" , "nueve millones"};
+        public static string[] complementos = new string[] {"mil","Un millon" , "millones","dos millones" , "tres millones " ,"cuatro millones","cinco millones " , "seis millones","siete millones" ,"ocho millones" , "nueve millones", "un mil"};
         public static string getLetras (double num)
         {
             
@@ -63,6 +63,7 @@ namespace ProyectoVectores.clases
             else if (num == 800) aux = centenas[9];
             else if (num == 900) aux = centenas[10];
             else if (num < 1000) aux = getLetras(Math.Truncate(num / 100) * 100) + " " + getLetras(num % 100);
+            else if (num ==1000) aux= complementos[11];
             else if (num < 2000) aux = complementos[0] + "  " +  getLetras(num % 1000);
             else if (num < 1000000)
             {

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmNumerosLetras));
             this.label1 = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -57,30 +58,31 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(45, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 17);
+            this.label2.Size = new System.Drawing.Size(158, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "El número en letras es ";
+            this.label2.Text = "El número en letras es :";
             // 
             // txtResultado
             // 
-            this.txtResultado.Location = new System.Drawing.Point(66, 174);
+            this.txtResultado.Location = new System.Drawing.Point(48, 151);
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtResultado.Size = new System.Drawing.Size(475, 101);
+            this.txtResultado.Size = new System.Drawing.Size(424, 103);
             this.txtResultado.TabIndex = 3;
             // 
             // FrmNumerosLetras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(591, 301);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmNumerosLetras";
-            this.Text = "FrmNumerosLetras";
+            this.Text = "                                            FrmNumerosLetras";
             this.ResumeLayout(false);
             this.PerformLayout();
 
