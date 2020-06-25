@@ -51,6 +51,7 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(194, 22);
             this.txtNumero.TabIndex = 1;
+            this.txtNumero.TextChanged += new System.EventHandler(this.txtNumero_TextChanged);
             this.txtNumero.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNumero_KeyDown);
             // 
             // label2
