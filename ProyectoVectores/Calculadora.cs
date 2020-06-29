@@ -144,7 +144,7 @@ namespace ProyectoVectores
 
         private void btbigual_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
