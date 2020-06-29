@@ -61,7 +61,7 @@ namespace ProyectoVectores
                 this.txtPantalla.Text += strnum; //método abreviado
                 this.mUltimaPulsacion = TipoTecla.DIGITO;
             }
-            else if (strnum == "+" || strnum == "-" || strnum == "X" || strnum == "/" || strnum == "=")
+            else if ((strnum == "+" || strnum == "-" || strnum == "X" || strnum == "/" || strnum == "=") && this.mUltimaPulsacion == TipoTecla.DIGITO)
             {
                 if (this.mUltimaPulsacion == TipoTecla.DIGITO)
                     this.mNumOperandos++;
@@ -70,10 +70,10 @@ namespace ProyectoVectores
                 {
                     
                         this.mOperando1 = Int32.Parse(this.txtPantalla.Text);
-                    
-                    
-                  
-                    
+                    this.txtPantalla.Text = "";
+
+
+
                 }
                 
                 else if (this.mNumOperandos == 2)
@@ -93,6 +93,9 @@ namespace ProyectoVectores
                         case "/":
                             this.mOperando1 /= this.mOperando2;
                             break;
+                        case "=":
+                            this.mOperando1 =this.mOperando2;
+                            break;
                     }
                     this.txtPantalla.Text = this.mOperando1.ToString();
                     this.mNumOperandos = 1;
@@ -103,9 +106,10 @@ namespace ProyectoVectores
                 this.mUltimaPulsacion = TipoTecla.OPERADOR;
                 this.mOperador = strnum;
             }
+        
             if (strnum == "AC")
             {
-
+                this.txtPantalla.Clear();
                 this.mNumOperandos = 0;
             }
            
@@ -140,7 +144,7 @@ namespace ProyectoVectores
 
         private void btbigual_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
