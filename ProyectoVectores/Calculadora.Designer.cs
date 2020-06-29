@@ -30,273 +30,213 @@
         {
             this.txtPantalla = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btndivision = new System.Windows.Forms.Button();
-            this.btnproducto = new System.Windows.Forms.Button();
-            this.btnresta = new System.Windows.Forms.Button();
-            this.btnsuma = new System.Windows.Forms.Button();
-            this.btbdelete = new System.Windows.Forms.Button();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn9 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btn0 = new System.Windows.Forms.Button();
-            this.btn1 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btbigual = new System.Windows.Forms.Button();
+            this.btbdivision = new System.Windows.Forms.Button();
+            this.btbresta = new System.Windows.Forms.Button();
+            this.btbsuma = new System.Windows.Forms.Button();
+            this.btbmultiplicacion = new System.Windows.Forms.Button();
+            this.btbac = new System.Windows.Forms.Button();
+            this.btb9 = new System.Windows.Forms.Button();
+            this.btb8 = new System.Windows.Forms.Button();
+            this.btb7 = new System.Windows.Forms.Button();
+            this.btb6 = new System.Windows.Forms.Button();
+            this.btb5 = new System.Windows.Forms.Button();
+            this.btb4 = new System.Windows.Forms.Button();
+            this.btb3 = new System.Windows.Forms.Button();
+            this.btb2 = new System.Windows.Forms.Button();
+            this.btb1 = new System.Windows.Forms.Button();
+            this.btb0 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtPantalla
             // 
-            this.txtPantalla.Location = new System.Drawing.Point(32, 69);
+            this.txtPantalla.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPantalla.Location = new System.Drawing.Point(46, 49);
             this.txtPantalla.Name = "txtPantalla";
-            this.txtPantalla.Size = new System.Drawing.Size(535, 22);
+            this.txtPantalla.Size = new System.Drawing.Size(456, 22);
             this.txtPantalla.TabIndex = 0;
-            this.txtPantalla.TextChanged += new System.EventHandler(this.txtPantalla_TextChanged);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.btndivision);
-            this.groupBox1.Controls.Add(this.btnproducto);
-            this.groupBox1.Controls.Add(this.btnresta);
-            this.groupBox1.Controls.Add(this.btnsuma);
-            this.groupBox1.Controls.Add(this.btbdelete);
-            this.groupBox1.Controls.Add(this.btn8);
-            this.groupBox1.Controls.Add(this.btn9);
-            this.groupBox1.Controls.Add(this.btn7);
-            this.groupBox1.Controls.Add(this.btn6);
-            this.groupBox1.Controls.Add(this.btn3);
-            this.groupBox1.Controls.Add(this.btn5);
-            this.groupBox1.Controls.Add(this.btn0);
-            this.groupBox1.Controls.Add(this.btn1);
-            this.groupBox1.Controls.Add(this.btn2);
-            this.groupBox1.Controls.Add(this.btn4);
-            this.groupBox1.Location = new System.Drawing.Point(26, 97);
+            this.groupBox1.Controls.Add(this.btbigual);
+            this.groupBox1.Controls.Add(this.btbdivision);
+            this.groupBox1.Controls.Add(this.btbresta);
+            this.groupBox1.Controls.Add(this.btbsuma);
+            this.groupBox1.Controls.Add(this.btbmultiplicacion);
+            this.groupBox1.Controls.Add(this.btbac);
+            this.groupBox1.Controls.Add(this.btb9);
+            this.groupBox1.Controls.Add(this.btb8);
+            this.groupBox1.Controls.Add(this.btb7);
+            this.groupBox1.Controls.Add(this.btb6);
+            this.groupBox1.Controls.Add(this.btb5);
+            this.groupBox1.Controls.Add(this.btb4);
+            this.groupBox1.Controls.Add(this.btb3);
+            this.groupBox1.Controls.Add(this.btb2);
+            this.groupBox1.Controls.Add(this.btb1);
+            this.groupBox1.Controls.Add(this.btb0);
+            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(46, 117);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(565, 335);
-            this.groupBox1.TabIndex = 2;
+            this.groupBox1.Size = new System.Drawing.Size(456, 242);
+            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // button2
+            // btbigual
             // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(396, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 41);
-            this.button2.TabIndex = 19;
-            this.button2.Text = ".";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.PNumber);
+            this.btbigual.Location = new System.Drawing.Point(366, 195);
+            this.btbigual.Name = "btbigual";
+            this.btbigual.Size = new System.Drawing.Size(75, 32);
+            this.btbigual.TabIndex = 17;
+            this.btbigual.Text = "=";
+            this.btbigual.UseVisualStyleBackColor = true;
+            this.btbigual.Click += new System.EventHandler(this.btbigual_Click);
             // 
-            // button1
+            // btbdivision
             // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(212, 261);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 39);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "C";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btbdivision.Location = new System.Drawing.Point(366, 139);
+            this.btbdivision.Name = "btbdivision";
+            this.btbdivision.Size = new System.Drawing.Size(75, 32);
+            this.btbdivision.TabIndex = 16;
+            this.btbdivision.Text = "/";
+            this.btbdivision.UseVisualStyleBackColor = true;
             // 
-            // btndivision
+            // btbresta
             // 
-            this.btndivision.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndivision.Location = new System.Drawing.Point(293, 190);
-            this.btndivision.Name = "btndivision";
-            this.btndivision.Size = new System.Drawing.Size(85, 33);
-            this.btndivision.TabIndex = 16;
-            this.btndivision.Text = "/";
-            this.btndivision.UseVisualStyleBackColor = true;
-            this.btndivision.Click += new System.EventHandler(this.Operaciones);
+            this.btbresta.Location = new System.Drawing.Point(366, 78);
+            this.btbresta.Name = "btbresta";
+            this.btbresta.Size = new System.Drawing.Size(75, 32);
+            this.btbresta.TabIndex = 15;
+            this.btbresta.Text = "-";
+            this.btbresta.UseVisualStyleBackColor = true;
             // 
-            // btnproducto
+            // btbsuma
             // 
-            this.btnproducto.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnproducto.Location = new System.Drawing.Point(293, 120);
-            this.btnproducto.Name = "btnproducto";
-            this.btnproducto.Size = new System.Drawing.Size(85, 40);
-            this.btnproducto.TabIndex = 15;
-            this.btnproducto.Text = "*";
-            this.btnproducto.UseVisualStyleBackColor = true;
-            this.btnproducto.Click += new System.EventHandler(this.Operaciones);
+            this.btbsuma.Location = new System.Drawing.Point(366, 21);
+            this.btbsuma.Name = "btbsuma";
+            this.btbsuma.Size = new System.Drawing.Size(75, 32);
+            this.btbsuma.TabIndex = 14;
+            this.btbsuma.Text = "+";
+            this.btbsuma.UseVisualStyleBackColor = true;
             // 
-            // btnresta
+            // btbmultiplicacion
             // 
-            this.btnresta.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnresta.Location = new System.Drawing.Point(293, 44);
-            this.btnresta.Name = "btnresta";
-            this.btnresta.Size = new System.Drawing.Size(85, 44);
-            this.btnresta.TabIndex = 14;
-            this.btnresta.Text = "-";
-            this.btnresta.UseVisualStyleBackColor = true;
-            this.btnresta.Click += new System.EventHandler(this.Operaciones);
+            this.btbmultiplicacion.Location = new System.Drawing.Point(265, 189);
+            this.btbmultiplicacion.Name = "btbmultiplicacion";
+            this.btbmultiplicacion.Size = new System.Drawing.Size(75, 32);
+            this.btbmultiplicacion.TabIndex = 13;
+            this.btbmultiplicacion.Text = "X";
+            this.btbmultiplicacion.UseVisualStyleBackColor = true;
             // 
-            // btnsuma
+            // btbac
             // 
-            this.btnsuma.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsuma.Location = new System.Drawing.Point(293, 261);
-            this.btnsuma.Name = "btnsuma";
-            this.btnsuma.Size = new System.Drawing.Size(85, 41);
-            this.btnsuma.TabIndex = 13;
-            this.btnsuma.Text = "+";
-            this.btnsuma.UseVisualStyleBackColor = true;
-            this.btnsuma.Click += new System.EventHandler(this.Operaciones);
+            this.btbac.Location = new System.Drawing.Point(138, 189);
+            this.btbac.Name = "btbac";
+            this.btbac.Size = new System.Drawing.Size(75, 32);
+            this.btbac.TabIndex = 12;
+            this.btbac.Text = "AC";
+            this.btbac.UseVisualStyleBackColor = true;
             // 
-            // btbdelete
+            // btb9
             // 
-            this.btbdelete.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btbdelete.Location = new System.Drawing.Point(94, 261);
-            this.btbdelete.Name = "btbdelete";
-            this.btbdelete.Size = new System.Drawing.Size(112, 39);
-            this.btbdelete.TabIndex = 12;
-            this.btbdelete.Text = "CE";
-            this.btbdelete.UseVisualStyleBackColor = true;
-            this.btbdelete.Click += new System.EventHandler(this.btbdelete_Click);
+            this.btb9.Location = new System.Drawing.Point(265, 21);
+            this.btb9.Name = "btb9";
+            this.btb9.Size = new System.Drawing.Size(75, 32);
+            this.btb9.TabIndex = 11;
+            this.btb9.Text = "9";
+            this.btb9.UseVisualStyleBackColor = true;
             // 
-            // btn8
+            // btb8
             // 
-            this.btn8.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn8.Location = new System.Drawing.Point(212, 190);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(75, 33);
-            this.btn8.TabIndex = 4;
-            this.btn8.Text = "8";
-            this.btn8.UseVisualStyleBackColor = true;
-            this.btn8.Click += new System.EventHandler(this.PNumber);
+            this.btb8.Location = new System.Drawing.Point(138, 21);
+            this.btb8.Name = "btb8";
+            this.btb8.Size = new System.Drawing.Size(75, 32);
+            this.btb8.TabIndex = 10;
+            this.btb8.Text = "8";
+            this.btb8.UseVisualStyleBackColor = true;
             // 
-            // btn9
+            // btb7
             // 
-            this.btn9.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn9.Location = new System.Drawing.Point(113, 194);
-            this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(75, 33);
-            this.btn9.TabIndex = 0;
-            this.btn9.Text = "9";
-            this.btn9.UseVisualStyleBackColor = true;
-            this.btn9.Click += new System.EventHandler(this.PNumber);
+            this.btb7.Location = new System.Drawing.Point(17, 21);
+            this.btb7.Name = "btb7";
+            this.btb7.Size = new System.Drawing.Size(75, 32);
+            this.btb7.TabIndex = 9;
+            this.btb7.Text = "7";
+            this.btb7.UseVisualStyleBackColor = true;
             // 
-            // btn7
+            // btb6
             // 
-            this.btn7.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn7.Location = new System.Drawing.Point(6, 190);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(75, 33);
-            this.btn7.TabIndex = 11;
-            this.btn7.Text = "7";
-            this.btn7.UseVisualStyleBackColor = true;
-            this.btn7.Click += new System.EventHandler(this.PNumber);
+            this.btb6.Location = new System.Drawing.Point(265, 78);
+            this.btb6.Name = "btb6";
+            this.btb6.Size = new System.Drawing.Size(75, 32);
+            this.btb6.TabIndex = 8;
+            this.btb6.Text = "6";
+            this.btb6.UseVisualStyleBackColor = true;
             // 
-            // btn6
+            // btb5
             // 
-            this.btn6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn6.Location = new System.Drawing.Point(212, 120);
-            this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(75, 40);
-            this.btn6.TabIndex = 9;
-            this.btn6.Text = "6";
-            this.btn6.UseVisualStyleBackColor = true;
-            this.btn6.Click += new System.EventHandler(this.PNumber);
+            this.btb5.Location = new System.Drawing.Point(138, 78);
+            this.btb5.Name = "btb5";
+            this.btb5.Size = new System.Drawing.Size(75, 32);
+            this.btb5.TabIndex = 7;
+            this.btb5.Text = "5";
+            this.btb5.UseVisualStyleBackColor = true;
             // 
-            // btn3
+            // btb4
             // 
-            this.btn3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn3.Location = new System.Drawing.Point(212, 44);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(75, 44);
-            this.btn3.TabIndex = 10;
-            this.btn3.Text = "3";
-            this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.PNumber);
+            this.btb4.Location = new System.Drawing.Point(17, 78);
+            this.btb4.Name = "btb4";
+            this.btb4.Size = new System.Drawing.Size(75, 32);
+            this.btb4.TabIndex = 6;
+            this.btb4.Text = "4";
+            this.btb4.UseVisualStyleBackColor = true;
             // 
-            // btn5
+            // btb3
             // 
-            this.btn5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn5.Location = new System.Drawing.Point(113, 120);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(75, 40);
-            this.btn5.TabIndex = 8;
-            this.btn5.Text = "5";
-            this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.PNumber);
+            this.btb3.Location = new System.Drawing.Point(265, 139);
+            this.btb3.Name = "btb3";
+            this.btb3.Size = new System.Drawing.Size(75, 32);
+            this.btb3.TabIndex = 5;
+            this.btb3.Text = "3";
+            this.btb3.UseVisualStyleBackColor = true;
             // 
-            // btn0
+            // btb2
             // 
-            this.btn0.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn0.Location = new System.Drawing.Point(6, 261);
-            this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(75, 39);
-            this.btn0.TabIndex = 5;
-            this.btn0.Text = "0";
-            this.btn0.UseVisualStyleBackColor = true;
-            this.btn0.Click += new System.EventHandler(this.PNumber);
+            this.btb2.Location = new System.Drawing.Point(138, 139);
+            this.btb2.Name = "btb2";
+            this.btb2.Size = new System.Drawing.Size(75, 32);
+            this.btb2.TabIndex = 4;
+            this.btb2.Text = "2";
+            this.btb2.UseVisualStyleBackColor = true;
             // 
-            // btn1
+            // btb1
             // 
-            this.btn1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.Location = new System.Drawing.Point(6, 44);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(75, 44);
-            this.btn1.TabIndex = 7;
-            this.btn1.Text = "1";
-            this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.PNumber);
+            this.btb1.Location = new System.Drawing.Point(17, 139);
+            this.btb1.Name = "btb1";
+            this.btb1.Size = new System.Drawing.Size(75, 32);
+            this.btb1.TabIndex = 3;
+            this.btb1.Text = "1";
+            this.btb1.UseVisualStyleBackColor = true;
             // 
-            // btn2
+            // btb0
             // 
-            this.btn2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn2.Location = new System.Drawing.Point(113, 44);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(75, 44);
-            this.btn2.TabIndex = 7;
-            this.btn2.Text = "2";
-            this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.PNumber);
-            // 
-            // btn4
-            // 
-            this.btn4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn4.Location = new System.Drawing.Point(6, 120);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(75, 40);
-            this.btn4.TabIndex = 6;
-            this.btn4.Text = "4";
-            this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.PNumber);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(396, 44);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(145, 179);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "=";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button20_Click);
+            this.btb0.Location = new System.Drawing.Point(17, 189);
+            this.btb0.Name = "btb0";
+            this.btb0.Size = new System.Drawing.Size(75, 32);
+            this.btb0.TabIndex = 2;
+            this.btb0.Text = "0";
+            this.btb0.UseVisualStyleBackColor = true;
+            this.btb0.Click += new System.EventHandler(this.btb0_Click);
             // 
             // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(648, 469);
+            this.ClientSize = new System.Drawing.Size(560, 401);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtPantalla);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Calculadora";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculadora";
-            this.TopMost = true;
+            this.Text = "Form2";
             this.Load += new System.EventHandler(this.Calculadora_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -308,23 +248,21 @@
 
         private System.Windows.Forms.TextBox txtPantalla;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btndivision;
-        private System.Windows.Forms.Button btnproducto;
-        private System.Windows.Forms.Button btnresta;
-        private System.Windows.Forms.Button btnsuma;
-        private System.Windows.Forms.Button btbdelete;
-        private System.Windows.Forms.Button btn8;
-        private System.Windows.Forms.Button btn9;
-        private System.Windows.Forms.Button btn7;
-        private System.Windows.Forms.Button btn6;
-        private System.Windows.Forms.Button btn3;
-        private System.Windows.Forms.Button btn5;
-        private System.Windows.Forms.Button btn0;
-        private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btbigual;
+        private System.Windows.Forms.Button btbdivision;
+        private System.Windows.Forms.Button btbresta;
+        private System.Windows.Forms.Button btbsuma;
+        private System.Windows.Forms.Button btbmultiplicacion;
+        private System.Windows.Forms.Button btbac;
+        private System.Windows.Forms.Button btb9;
+        private System.Windows.Forms.Button btb8;
+        private System.Windows.Forms.Button btb7;
+        private System.Windows.Forms.Button btb6;
+        private System.Windows.Forms.Button btb5;
+        private System.Windows.Forms.Button btb4;
+        private System.Windows.Forms.Button btb3;
+        private System.Windows.Forms.Button btb2;
+        private System.Windows.Forms.Button btb1;
+        private System.Windows.Forms.Button btb0;
     }
 }
