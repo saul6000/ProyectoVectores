@@ -84,6 +84,7 @@
             // 
             // btbigual
             // 
+            this.btbigual.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbigual.Location = new System.Drawing.Point(366, 195);
             this.btbigual.Name = "btbigual";
             this.btbigual.Size = new System.Drawing.Size(75, 32);
@@ -94,6 +95,7 @@
             // 
             // btbdivision
             // 
+            this.btbdivision.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbdivision.Location = new System.Drawing.Point(366, 139);
             this.btbdivision.Name = "btbdivision";
             this.btbdivision.Size = new System.Drawing.Size(75, 32);
@@ -103,6 +105,7 @@
             // 
             // btbresta
             // 
+            this.btbresta.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbresta.Location = new System.Drawing.Point(366, 78);
             this.btbresta.Name = "btbresta";
             this.btbresta.Size = new System.Drawing.Size(75, 32);
@@ -112,6 +115,7 @@
             // 
             // btbsuma
             // 
+            this.btbsuma.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbsuma.Location = new System.Drawing.Point(366, 21);
             this.btbsuma.Name = "btbsuma";
             this.btbsuma.Size = new System.Drawing.Size(75, 32);
@@ -121,6 +125,7 @@
             // 
             // btbmultiplicacion
             // 
+            this.btbmultiplicacion.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbmultiplicacion.Location = new System.Drawing.Point(265, 189);
             this.btbmultiplicacion.Name = "btbmultiplicacion";
             this.btbmultiplicacion.Size = new System.Drawing.Size(75, 32);
@@ -130,6 +135,7 @@
             // 
             // btbac
             // 
+            this.btbac.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbac.Location = new System.Drawing.Point(138, 189);
             this.btbac.Name = "btbac";
             this.btbac.Size = new System.Drawing.Size(75, 32);
@@ -139,6 +145,7 @@
             // 
             // btb9
             // 
+            this.btb9.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb9.Location = new System.Drawing.Point(265, 21);
             this.btb9.Name = "btb9";
             this.btb9.Size = new System.Drawing.Size(75, 32);
@@ -148,6 +155,7 @@
             // 
             // btb8
             // 
+            this.btb8.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb8.Location = new System.Drawing.Point(138, 21);
             this.btb8.Name = "btb8";
             this.btb8.Size = new System.Drawing.Size(75, 32);
@@ -157,6 +165,7 @@
             // 
             // btb7
             // 
+            this.btb7.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb7.Location = new System.Drawing.Point(17, 21);
             this.btb7.Name = "btb7";
             this.btb7.Size = new System.Drawing.Size(75, 32);
@@ -166,6 +175,7 @@
             // 
             // btb6
             // 
+            this.btb6.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb6.Location = new System.Drawing.Point(265, 78);
             this.btb6.Name = "btb6";
             this.btb6.Size = new System.Drawing.Size(75, 32);
@@ -175,6 +185,7 @@
             // 
             // btb5
             // 
+            this.btb5.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb5.Location = new System.Drawing.Point(138, 78);
             this.btb5.Name = "btb5";
             this.btb5.Size = new System.Drawing.Size(75, 32);
@@ -184,6 +195,7 @@
             // 
             // btb4
             // 
+            this.btb4.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb4.Location = new System.Drawing.Point(17, 78);
             this.btb4.Name = "btb4";
             this.btb4.Size = new System.Drawing.Size(75, 32);
@@ -193,6 +205,7 @@
             // 
             // btb3
             // 
+            this.btb3.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb3.Location = new System.Drawing.Point(265, 139);
             this.btb3.Name = "btb3";
             this.btb3.Size = new System.Drawing.Size(75, 32);
@@ -202,6 +215,7 @@
             // 
             // btb2
             // 
+            this.btb2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb2.Location = new System.Drawing.Point(138, 139);
             this.btb2.Name = "btb2";
             this.btb2.Size = new System.Drawing.Size(75, 32);
@@ -211,6 +225,7 @@
             // 
             // btb1
             // 
+            this.btb1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb1.Location = new System.Drawing.Point(17, 139);
             this.btb1.Name = "btb1";
             this.btb1.Size = new System.Drawing.Size(75, 32);
@@ -220,6 +235,7 @@
             // 
             // btb0
             // 
+            this.btb0.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btb0.Location = new System.Drawing.Point(17, 189);
             this.btb0.Name = "btb0";
             this.btb0.Size = new System.Drawing.Size(75, 32);

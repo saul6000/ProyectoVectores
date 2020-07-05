@@ -22,6 +22,7 @@ namespace ProyectoVectores
         private TipoTecla mUltimaPulsacion;
         private int mOperando1;
         private int mOperando2;
+     
         private int mNumOperandos;
         private string mOperador;
         public Calculadora()
@@ -54,7 +55,7 @@ namespace ProyectoVectores
             if (this.mUltimaPulsacion != TipoTecla.DIGITO)
                 this.txtPantalla.Text = "";
            
-
+         
 
             if (validaDigito(strnum))
             {
@@ -67,14 +68,11 @@ namespace ProyectoVectores
                     this.mNumOperandos++;
                
                 if (this.mNumOperandos == 1 )
-                {
-                    
-                        this.mOperando1 = Int32.Parse(this.txtPantalla.Text);
-                  
-
+                {                    
+                        this.mOperando1 = Int32.Parse(this.txtPantalla.Text);                 
                 }
                 
-                else if (this.mNumOperandos == 2)
+                else if (this.mNumOperandos == 2 )
                 {
                     this.mOperando2 = Int32.Parse(this.txtPantalla.Text);
                     switch (this.mOperador)
@@ -92,16 +90,17 @@ namespace ProyectoVectores
                             this.mOperando1 /= this.mOperando2;
                             break;
                         case "=":
-                            this.txtPantalla.Show();
-
+                           
                             break;
                     }
                     this.txtPantalla.Text = this.mOperando1.ToString();
                     this.mNumOperandos = 1;
                 }
+               
 
-                //this.txtPantalla.Text = "";
                 
+                //this.txtPantalla.Text = "";
+
                 this.mUltimaPulsacion = TipoTecla.OPERADOR;
                 this.mOperador = strnum;
             }
@@ -143,7 +142,7 @@ namespace ProyectoVectores
 
         private void btbigual_Click(object sender, EventArgs e)
         {
-            
+       
         }
     }
 }
