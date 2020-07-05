@@ -70,9 +70,7 @@ namespace ProyectoVectores
                 {
                     
                         this.mOperando1 = Int32.Parse(this.txtPantalla.Text);
-                    this.txtPantalla.Text = "";
-
-
+                  
 
                 }
                 
@@ -94,7 +92,8 @@ namespace ProyectoVectores
                             this.mOperando1 /= this.mOperando2;
                             break;
                         case "=":
-                            this.mOperando1 =this.mOperando2;
+                            this.txtPantalla.Show();
+
                             break;
                     }
                     this.txtPantalla.Text = this.mOperando1.ToString();
@@ -106,7 +105,7 @@ namespace ProyectoVectores
                 this.mUltimaPulsacion = TipoTecla.OPERADOR;
                 this.mOperador = strnum;
             }
-        
+      
             if (strnum == "AC")
             {
                 this.txtPantalla.Clear();
@@ -144,7 +143,7 @@ namespace ProyectoVectores
 
         private void btbigual_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
