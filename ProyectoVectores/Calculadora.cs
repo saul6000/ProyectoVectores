@@ -90,7 +90,7 @@ namespace ProyectoVectores
                             this.mOperando1 /= this.mOperando2;
                             break;
                         case "=":
-                           
+                            this.txtPantalla.Show();
                             break;
                     }
                     this.txtPantalla.Text = this.mOperando1.ToString();
